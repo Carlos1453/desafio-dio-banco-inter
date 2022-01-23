@@ -1,0 +1,46 @@
+/*Funcoes sao blocos de comando e instruçoes para a execucao de determinadas tarefas:
+
+ex: function nomeDaFuncao(){
+    ${instrucao};
+}
+
+nomeDaFuncao();
+
+
+Geralmente se utiliza a palavra reservada "function" seguida de parenteses () e chaves {}
+
+ex: function funcao(){
+    console.log(funcao);
+}
+funcao();
+
+()-indica que e um objeto do tipo function;
+{}-indica que e um bloco de instrucao;
+
+As funções podem receber parâmetros em sua declaração, parâmetros, que servem como variáveis, onde sua atribuição pode ser feita durante a chamada da função
+
+ex: function nomeDaFuncao(parametro){
+    ${instrucao};
+}
+
+nomeDaFuncao(valorDoParametro);
+
+function mensagem(primeiro, segundo){
+    console.log(primeiro, segundo);
+}
+
+nomeDaFuncao("Tudo certo","jovem!");
+
+
+ARROW FUNCTION 
+
+São funções de expressão de sintaxe curta. Arrow functions sempre serão anônimas, e portanto não podem ser nomeadas. Deve ser declarada com parenteses (), seguido de '=>' e depois chaves {}.
+
+ex: var funcao = () => {
+    ${instrucao};
+}
+
+Number()-para converter valores em números;
+prompt()-para registrar entradas de usuários;
+Alert()- para mostrar mensagem ao usuárioç
+Template strings- para usar strings junto com expressões */
